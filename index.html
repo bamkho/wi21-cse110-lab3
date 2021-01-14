@@ -28,7 +28,7 @@
       <a href="#">Introduction</a>
       <a href="#">Class Ratings</a>
       <a href="#">Randomness</a>
-      <a href="#">Python</a>
+      <a href="#">Job Application</a>
     </nav>
 
     <section>
@@ -147,7 +147,7 @@
         <source src="cat.mp3" type="audio/mpeg">
       </audio>
 
-      <p>Random video</p>
+      <p>Video of lion roaring</p>
       <video width="320" height="240" controls>
         <source src="./lion.mp4" type="video/mp4">
       </video>
@@ -160,8 +160,61 @@
         “We May Encounter Many Defeats But We Must Not Be Defeated.” – Maya Angelou
       </pre>
 
+      <canvas></canvas>
+      <svg></svg>
+
 
     </section>
+
+    <section>
+      <h2>Job Application</h2>
+      <p>If you fill out this form correctly and fully understand it, you will automatically get the role that you
+        applied for.</p>
+
+      <form>
+        <fieldset>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <textarea id="random" name="random">
+            Randomness                
+          </textarea>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+      <form>
+        <label for="job">Choose a job:</label>
+        <select name="job" id="jobs">
+          <optgroup label="Engineering">
+            <option value="frontend">Front End Developer</option>
+            <option value="mechanical">Mechanical Engineer</option>
+            <option value="lead">Lead Software Developer</option>
+          </optgroup>
+          <optgroup label="Product">
+            <option value="product">Product Manager</option>
+            <option value="design">Product Designer</option>
+            <option value="intern">Project Management Intern</option>
+          </optgroup>
+          <optgroup label="Sales">
+            <option value="inside">Inside Sales Rep</option>
+            <option value="outside">Outside Sales Rep</option>
+            <option value="manager">Sales Manager</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <form>
+        <label for="location">Choose your preferred location from the list:</label>
+        <input list="location" name="location" id="location">
+        <datalist id="browsers">
+          <option value="San Diego">
+        </datalist>
+        <input type="submit">
+      </form>
 
   </main>
 
