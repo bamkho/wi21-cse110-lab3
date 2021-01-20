@@ -1,0 +1,10 @@
+.box {
+    border-width: 2px;
+    border-radius: 1px;
+    border-color: rgb(red, green, blue);
+    border-style: solid;
+    padding: 40px 40px 40px 40px;
+    margin: 20px 20px 20px 20px;
+    width: 150px;
+    height: 150px;
+  }
