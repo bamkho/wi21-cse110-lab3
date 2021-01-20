@@ -78,3 +78,16 @@ li {
   font-size: 30px;
 
   }
+
+
+  p * {
+      color:rgb(34, 27, 26);
+  }
+
+  p[target] {
+      color: green;
+  }
+
+  p.highlight:hover {
+    color: #692d64;
+  } 
