@@ -58,3 +58,23 @@
  .color-blue { 
     color: blue; 
 }
+
+#iidd {
+    background: salmon;
+}
+
+li {
+    display: inline;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(210, 30, 255);
+    color: rgb(199, 180, 15);
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+  }
