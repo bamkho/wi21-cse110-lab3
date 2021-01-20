@@ -1,18 +1,20 @@
+/* I like turtles */
+
 .box {
     border-width: 2px;
-    border-radius: 1px;
+    border-radius: 5pc;
     border-color: rgb(red, green, blue);
     border-style: solid;
     padding: 40px 40px 40px 40px;
     margin: 20px 20px 20px 20px;
-    width: 150px;
-    height: 150px;
+    width: 20cm;
+    height: 5in;
   }
 
 
   .box2 {
-    border-width: 2px;
-    border-radius: 1px;
+    border-width: 2em;
+    border-radius: 1rem;
     border-color: #4cb6c2;
     border-style: dotted;
     padding-left: 10px;
@@ -28,10 +30,10 @@
   }
 
   .box3 {
-    border-width: 2px;
+    border-width: 2vw;
     border-radius: 1px;
     border-color: #f22;
-    border-style: dotted;
+    border-style: solid;
     padding-left: 10px;
     padding-top: 10px;
     padding-right: 10px;
@@ -40,3 +42,19 @@
     width: 150px;
     height: 150px;
   }
+
+ h2 {
+     color: hsl(251, 18%, 50%);
+     text-decoration: underline;
+     text-align: justify;
+     font-family: 'Noto Sans JP', sans-serif;
+
+ }
+
+ h3 {
+     color: hsla(167, 84%, 29%, 0.8);
+ }
+
+ .color-blue { 
+    color: blue; 
+}
