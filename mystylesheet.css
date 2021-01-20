@@ -67,6 +67,10 @@ li {
     display: inline;
 }
 
+ul {
+    display: block;
+}
+
 .flex-container {
     display: flex;
     background-color: rgb(210, 30, 255);
@@ -90,6 +94,10 @@ li {
 
   p.highlight:hover {
     color: #692d64;
+  } 
+
+  p.highlight:active {
+    color: #4c00ff;
   } 
 
   h1, h2 {
@@ -117,4 +125,39 @@ li {
 
   .class1.class2 {
       color: orange;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 50%) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  span.ex1 {
+    min-width: 40%;
+  }
+
+  div.static {
+    position: static;
+    border: solid #e216af;
+  }
+
+  div.relative {
+    position: relative;
+    border: solid #101997;
   }
