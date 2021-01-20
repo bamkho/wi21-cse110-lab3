@@ -91,3 +91,30 @@ li {
   p.highlight:hover {
     color: #692d64;
   } 
+
+  h1, h2 {
+      font-weight: bold;
+  }
+
+  div h2 {
+
+    color:rgb(199, 180, 15);
+    font-weight: bold;
+
+  }
+
+  div > h1 {
+    background-color: red;
+  }
+
+  div + p {
+    font-weight: bold;
+  }
+
+  div ~ p {
+      color:rgb(210, 30, 255);
+  }
+
+  .class1.class2 {
+      color: orange;
+  }
