@@ -8,3 +8,35 @@
     width: 150px;
     height: 150px;
   }
+
+
+  .box2 {
+    border-width: 2px;
+    border-radius: 1px;
+    border-color: #4cb6c2;
+    border-style: dotted;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .box3 {
+    border-width: 2px;
+    border-radius: 1px;
+    border-color: #f22;
+    border-style: dotted;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+  }
